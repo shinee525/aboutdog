@@ -3,49 +3,7 @@
   margin: 0 auto;
 }
 
-.title{
-    font-size:35px;
-    padding-top:32px;
-    padding-left:26px;
-}
-
-header{
-    display:flex;
-    padding-left:26px;
-    color:#707070;
-    width:100%;
-    padding: bottom 27.5px;
-    height:92px;
-    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-    justify-content: space-between;
-}
-
-.header-right{
-    display:flex;
-    font-size:20px;
-    margin-top:42px;
-    margin-right:75px;
-
-}
-
-.top{
-    margin-right:28px;
-}
-
-.latest{
-    margin-right:28px;
-}
-
-.top-image {
-    width: 100%;
-}
-
-.top-image{
-    widows: 960px;
-    height: 546.25px;
-}
-
-.sub-title {
+.title {
   font-size: 35px;
   color: #707070;
   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
@@ -53,8 +11,7 @@ header{
   margin-bottom: 25px;
 }
 
-.latest-container {
-  margin-top: 36px;
+.latest {
   margin-bottom: 36px;
 }
 
@@ -143,22 +100,3 @@ footer {
   font-size: 20px;
   text-indent: 20px;
 }
-
-@media screen and (max-width:959px) {
- 
- .container{
-     width:100%;
- }
-
- .articles {
-  margin: 0px 18px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
- .contact-form {
-   width: 100%;
- }
-}
- 

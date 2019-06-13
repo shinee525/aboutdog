@@ -106,6 +106,9 @@ header{
 .contact-form input, textarea {
   width: 100%;
   margin-bottom: 30px;
+  font-size: 20px;
+  text-indent: 17px;
+  color: #8E8E8E;
 }
 
 .contact-form input {
@@ -131,7 +134,7 @@ header{
 .submit {
   height: 48px;
   background-color: #8E8E8E;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   font-size: 20px;
 }
 
